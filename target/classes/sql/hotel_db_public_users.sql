@@ -1,0 +1,2 @@
+INSERT INTO public.users (user_id, role_id, email, password, name, surname, phone) VALUES (1, 2, 'tatiana@gmail.com', 'qwerty', 'Tatiana', 'First', '+380679991122');
+INSERT INTO public.users (user_id, role_id, email, password, name, surname, phone) VALUES (2, 2, 'evgeni@ukrnet.ua', 'otorvald', 'Evgeni', 'Secong', '+280667773344');

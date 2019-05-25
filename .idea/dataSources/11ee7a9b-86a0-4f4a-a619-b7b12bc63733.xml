@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hotel_db@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.9">
+    <root id="1">
+      <ServerVersion>10.8</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="hotel_db">
+      <ObjectId>16384</ObjectId>
+      <IntrospectionStateNumber>116</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="one-to-one">
+      <ObjectId>16529</ObjectId>
+    </database>
+    <database id="4" parent="1" name="postgres">
+      <ObjectId>12994</ObjectId>
+      <Comment>default administrative connection database</Comment>
+    </database>
+    <database id="5" parent="1" name="test">
+      <ObjectId>16541</ObjectId>
+    </database>
+    <role id="6" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="8" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="9" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="10" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="11" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="12" parent="2" name="information_schema">
+      <ObjectId>12703</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+    </schema>
+    <schema id="14" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+    </schema>
+    <schema id="16" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <IntrospectionTimestamp>2019-05-25.18:22:01.386</IntrospectionTimestamp>
+      <IntrospectionStateNumber>590</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="18" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="19" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="20" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="21" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="23" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="24" parent="17" name="orders_order_id_seq">
+      <ObjectId>16506</ObjectId>
+      <StateNumber>578</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="25" parent="17" name="hotel_rooms_room_id_seq">
+      <ObjectId>16487</ObjectId>
+      <StateNumber>576</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="26" parent="17" name="roles_role_id_seq">
+      <ObjectId>16445</ObjectId>
+      <StateNumber>568</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="27" parent="17" name="service_levels_level_id_seq">
+      <ObjectId>16473</ObjectId>
+      <StateNumber>574</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="28" parent="17" name="users_user_id_seq">
+      <ObjectId>16455</ObjectId>
+      <StateNumber>571</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="29" parent="17" name="hotel_rooms">
+      <ObjectId>16489</ObjectId>
+      <StateNumber>580</StateNumber>
+    </table>
+    <table id="30" parent="17" name="orders">
+      <ObjectId>16508</ObjectId>
+      <StateNumber>590</StateNumber>
+    </table>
+    <table id="31" parent="17" name="roles">
+      <ObjectId>16447</ObjectId>
+      <StateNumber>571</StateNumber>
+    </table>
+    <table id="32" parent="17" name="service_levels">
+      <ObjectId>16475</ObjectId>
+      <StateNumber>580</StateNumber>
+    </table>
+    <table id="33" parent="17" name="users">
+      <ObjectId>16457</ObjectId>
+      <StateNumber>581</StateNumber>
+    </table>
+    <column id="34" parent="29" name="room_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>576</StateNumber>
+      <DefaultExpression>nextval(&apos;hotel_rooms_room_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>hotel_rooms_room_id_seq</SequenceName>
+    </column>
+    <column id="35" parent="29" name="number_of_places">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>576</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="36" parent="29" name="service_level">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>576</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="37" parent="29" name="price">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>576</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="38" parent="29" name="hotel_rooms_pkey">
+      <ObjectId>16493</ObjectId>
+      <ColNames>room_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="29" name="hotel_rooms_pkey">
+      <ObjectId>16494</ObjectId>
+      <ColNames>room_id</ColNames>
+      <UnderlyingIndexName>hotel_rooms_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="40" parent="29" name="hotel_rooms_service_levels_level_id_fk">
+      <ObjectId>16523</ObjectId>
+      <ColNames>service_level</ColNames>
+      <RefTableId>16475</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>service_levels</RefTableName>
+      <RefColNames>level_id</RefColNames>
+    </foreign-key>
+    <column id="41" parent="30" name="order_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <DefaultExpression>nextval(&apos;orders_order_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>orders_order_id_seq</SequenceName>
+    </column>
+    <column id="42" parent="30" name="user_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="43" parent="30" name="check_in_date">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="44" parent="30" name="check_out_date">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="45" parent="30" name="service_level_id">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="46" parent="30" name="room_id">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>578</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="47" parent="30" name="order_time">
+      <Position>7</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>578</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="48" parent="30" name="number_of_places">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>590</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="49" parent="30" name="orders_users_user_id_fk">
+      <ObjectId>16512</ObjectId>
+      <ColNames>user_id</ColNames>
+      <RefTableId>16457</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>users</RefTableName>
+      <RefKeyName>entities_pkey</RefKeyName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="50" parent="30" name="orders_hotel_rooms_room_id_fk">
+      <ObjectId>16517</ObjectId>
+      <ColNames>room_id</ColNames>
+      <RefTableId>16489</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>hotel_rooms</RefTableName>
+      <RefKeyName>hotel_rooms_pkey</RefKeyName>
+      <RefColNames>room_id</RefColNames>
+    </foreign-key>
+    <column id="51" parent="31" name="role_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>568</StateNumber>
+      <DefaultExpression>nextval(&apos;roles_role_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>roles_role_id_seq</SequenceName>
+    </column>
+    <column id="52" parent="31" name="role_name">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>568</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="53" parent="31" name="roles_pkey">
+      <ObjectId>16451</ObjectId>
+      <ColNames>role_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="31" name="roles_role_id_uindex">
+      <ObjectId>16453</ObjectId>
+      <ColNames>role_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="55" parent="31" name="roles_role_name_uindex">
+      <ObjectId>16454</ObjectId>
+      <ColNames>role_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="56" parent="31" name="roles_pkey">
+      <ObjectId>16452</ObjectId>
+      <ColNames>role_id</ColNames>
+      <UnderlyingIndexName>roles_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="32" name="level_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <DefaultExpression>nextval(&apos;service_levels_level_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>service_levels_level_id_seq</SequenceName>
+    </column>
+    <column id="58" parent="32" name="class_type">
+      <Position>2</Position>
+      <DataType>char(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>574</StateNumber>
+      <TypeId>1042</TypeId>
+    </column>
+    <index id="59" parent="32" name="service_levels_level_id_uindex">
+      <ObjectId>16522</ObjectId>
+      <ColNames>level_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <column id="60" parent="33" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>571</StateNumber>
+      <DefaultExpression>nextval(&apos;users_user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+      <SequenceName>users_user_id_seq</SequenceName>
+    </column>
+    <column id="61" parent="33" name="role_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>571</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="62" parent="33" name="email">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>571</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="63" parent="33" name="password">
+      <Position>4</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>571</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="64" parent="33" name="name">
+      <Position>5</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>571</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="33" name="surname">
+      <Position>6</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>571</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="66" parent="33" name="phone">
+      <Position>7</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>581</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="67" parent="33" name="entities_entity_id_uindex">
+      <ObjectId>16471</ObjectId>
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="68" parent="33" name="entities_pkey">
+      <ObjectId>16464</ObjectId>
+      <ColNames>user_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="69" parent="33" name="entities_email_uindex">
+      <ObjectId>16472</ObjectId>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="70" parent="33" name="users_phone_uindex">
+      <ObjectId>16528</ObjectId>
+      <ColNames>phone</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="71" parent="33" name="entities_pkey">
+      <ObjectId>16465</ObjectId>
+      <ColNames>user_id</ColNames>
+      <UnderlyingIndexName>entities_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="72" parent="33" name="users_roles_role_id_fk">
+      <ObjectId>16466</ObjectId>
+      <ColNames>role_id</ColNames>
+      <RefTableId>16447</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>roles</RefTableName>
+      <RefKeyName>roles_pkey</RefKeyName>
+      <RefColNames>role_id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

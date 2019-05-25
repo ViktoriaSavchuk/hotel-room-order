@@ -1,0 +1,1 @@
+INSERT INTO public.orders (order_id, user_id, check_in_date, check_out_date, service_level_id, room_id, order_time, number_of_places) VALUES (1, 2, '2019-05-31 03:59:36.267000', '2019-05-02 03:59:47.235000', 3, null, '2019-05-24 04:00:37.484000', null);
