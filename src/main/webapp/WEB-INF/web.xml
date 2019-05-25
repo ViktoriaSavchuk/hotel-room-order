@@ -15,4 +15,15 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <display-name>BookingServlet</display-name>
+        <servlet-name>BookingServlet</servlet-name>
+        <servlet-class>com.hotel.controller.BookingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BookingServlet</servlet-name>
+        <url-pattern>/booking</url-pattern>
+    </servlet-mapping>
+
 </web-app>

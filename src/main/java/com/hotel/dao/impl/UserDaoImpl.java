@@ -62,7 +62,7 @@ public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
     }
 
     @Override
-    public Optional<User> findUserByEmail(String email) {
+    public Optional<User> findByEmail(String email) {
         User user = null;
         try (Connection connection = connector.getConnection()) {
             PreparedStatement preparedStatement =

@@ -2,62 +2,54 @@
   Created by IntelliJ IDEA.
   User: viktoria
   Date: 5/25/19
-  Time: 6:09 PM
+  Time: 10:00 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+<<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
-    <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <link rel="stylesheet" href="http://localhost:8081/booking/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="http://localhost:8081/booking/css/style.css">
+
 </head>
 <body>
-<br>
-<div class="container-fluid">
-    <div class="panel panel-success">
-        <div class="panel-heading" align="center">
-            <h4><b><span style="font-family: fantasy; color: black; ">My First Login Demo</span> </b></h4>
-        </div>
-        <div class="panel-body" align="center">
 
-            <div class="container " style="margin-top: 10%; margin-bottom: 10%;">
-
-                <div class="panel panel-success" style="max-width: 35%;" align="left">
-
-                    <div class="panel-heading form-group">
-                        <b><span style="color: white; ">
-                            Login Form</span> </b>
+<div class="main">
+    <div class="container">
+        <div class="booking-content">
+            <div class="booking-image">
+                <img class="booking-img" src="http://localhost:8081/booking/images/building.jpeg" />" alt="Booking Image">
+            </div>
+            <div class="booking-form">
+                <form action="login" method="post">
+                    <h5><%=request.getAttribute("errorMessage") %></h5>
+                    <div class="form-group">
+                        <%--@declare id="exampleinputemail1"--%><label for="exampleInputEmail1">User
+                        Name</label> <input
+                            type="text" class="form-control" name="login" id="login"
+                            placeholder="Enter User Name" required="required">
                     </div>
-
-                    <div class="panel-body">
-
-                        <form action="login" method="post"> <%--m--%>
-                            <div class="form-group">
-                                <%--@declare id="exampleinputemail1"--%><label for="exampleInputEmail1">User
-                                Name</label> <input
-                                    type="text" class="form-control" name="login" id="login"
-                                    placeholder="Enter User Name" required="required">
-
-                            </div>
-                            <div class="form-group">
-                                <%--@declare id="exampleinputpassword1"--%><label
-                                    for="exampleInputPassword1">Password</label> <input
-                                    type="password" class="form-control" name="password" id="password"
-                                    placeholder="Password" required="required">
-                            </div>
-                            <button type="submit" style="width: 100%; font-size:1.1em;"
-                                    class="btn btn-large btn btn-success btn-lg btn-block"><b>Login</b></button>
-
-                        </form>
-
+                    <div class="form-group">
+                        <%--@declare id="exampleinputpassword1"--%><label
+                            for="exampleInputPassword1">Password</label> <input
+                            type="password" class="form-control" name="password" id="password"
+                            placeholder="Password" required="required">
                     </div>
-                </div>
-
+                    <button type="submit" style="width: 100%; font-size:1.1em;"
+                            class="btn btn-large btn btn-success btn-lg btn-block"><b>Login</b></button>
+                </form>
             </div>
         </div>
     </div>
+
 </div>
+
 </body>
 </html>
+

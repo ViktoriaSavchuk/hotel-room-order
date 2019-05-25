@@ -18,6 +18,7 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("jsp/login.jsp");
+        request.setAttribute("errorMessage", "     ");
         requestDispatcher.forward(request, response);
         // processRequest(request, response);
     }
@@ -28,30 +29,7 @@ public class LoginServlet extends HttpServlet {
     }
 
     private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Connector connector = new Connector();
-        //System.out.println("AC");
-      /*  UserDao userDao1=new UserDaoImpl(connector);
-        System.out.println(userDao1.findAll());
-        System.out.println(userDao1.findById(2L));*/
 
-
-        UserDao userDao = new UserDaoImpl(connector);
-        System.out.println(userDao);
-        HttpSession session = request.getSession();
-        String login = request.getParameter("login");
-
-        PrintWriter printWriter = response.getWriter();
-        String password = request.getParameter("password");
-        User loginUser = userDao.findById(1L).get();
-        if (loginUser != null && loginUser.getPassword().equals(password)) {
-            RequestDispatcher rd = request.getRequestDispatcher("/jsp/success.jsp");
-            printWriter.print("<h1>username: " + loginUser.getName() + "</h1>");
-
-            request.setAttribute("login", login);
-            rd.forward(request, response);
-        } else {
-            response.sendRedirect("/jsp/error.jsp");
-        }
 
     }
 }
