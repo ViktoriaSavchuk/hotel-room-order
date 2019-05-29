@@ -18,6 +18,7 @@ public class WebApp {
         RoomDao roomDao=new RoomDaoImpl(connector);
         System.out.println(roomDao.findAll());
         System.out.println(roomDao.findById(1L));
+        System.out.println(roomDao.findAllRoomTypeByNumberOfPlaces());
 
     }
 }

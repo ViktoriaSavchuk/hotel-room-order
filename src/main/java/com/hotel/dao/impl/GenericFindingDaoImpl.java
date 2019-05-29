@@ -1,6 +1,5 @@
 package com.hotel.dao.impl;
 
-import com.hotel.dao.GenericFindingDao;
 import com.hotel.entity.Entity;
 
 import java.sql.Connection;
@@ -11,13 +10,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public abstract class GenericFindingDaoImpl<T extends Entity> implements GenericFindingDao<T> {
+public abstract class GenericFindingDaoImpl<T extends Entity> {
 
     protected final Connector connector;
 
     protected GenericFindingDaoImpl(Connector connector) {
         this.connector = connector;
     }
+
 
     protected Optional<T> findById(Long id, String queryTemplate) {
         T entity = null;
@@ -53,5 +53,4 @@ public abstract class GenericFindingDaoImpl<T extends Entity> implements Generic
     }
 
     protected abstract T mapResultSetToEntity(ResultSet resultSet) throws SQLException;
-
 }

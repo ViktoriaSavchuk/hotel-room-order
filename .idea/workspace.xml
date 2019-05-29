@@ -7,178 +7,571 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="177b8ab4-304e-4dbf-9b66-c9d37d501f3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/SuccessfulLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/utils/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/images/form-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/minxi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/layouts/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/layouts/responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/vendor/jquery/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/registratioon.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/AboutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/RegistrationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/UserRedirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/impl/RoomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotel/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/images/dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/images/form-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/images/header-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/common/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/common/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/layouts/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/layouts/responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/linearicons/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/muli/Muli-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/muli/Muli-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/muli/Muli-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/poppins/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/images/bg-inner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/images/bg-registration-form-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/vendor/date-picker/css/datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/vendor/date-picker/js/datepicker.en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/find/vendor/date-picker/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/about_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/about_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/about_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/blog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/booking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/booking_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/booking_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/booking_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/cert_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/cert_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/details_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/details_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/gallery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/gallery_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/gallery_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/gallery_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/icon_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/index_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/index_blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/index_blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/index_blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/loader1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/loaders.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/milestones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/phone-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/sig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/special.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/special_offer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/testimonials.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/user_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/user_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/images/user_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/OwlCarousel2-2.3.4/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/OwlCarousel2-2.3.4/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/OwlCarousel2-2.3.4/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/OwlCarousel2-2.3.4/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/OwlCarousel2-2.3.4/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/OwlCarousel2-2.3.4/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/colorbox/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/progressbar/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/about_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/blog_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/booking.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/booking_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/bootstrap-4.1.2/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/bootstrap-4.1.2/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/elements.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/elements_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/header/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/css/material-design-iconic-font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/common/extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/common/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/common/minxi.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/registration/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ui/registration/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/hotel_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hotel_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/11ee7a9b-86a0-4f4a-a619-b7b12bc63733.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/11ee7a9b-86a0-4f4a-a619-b7b12bc63733.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/storage_v2/_src_/database/hotel_db.6eIB7w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/storage_v2/_src_/database/hotel_db.6eIB7w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hotel-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/WebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/WebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/SuccessfulLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericFindingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/GeneticModifyingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/RoomDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/RoomDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericFindingDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericFindingDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/RoomDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/RoomDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/utils/Token.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/css/material-design-iconic-font.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/css/material-design-iconic-font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/css/material-design-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/css/material-design-iconic-font.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-300italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-300italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-500italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-500italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-600.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-600.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-600.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-600.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-600.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-600.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-700italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-700italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-800italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-800italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/poppins-v5-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/poppins-v5-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/images/building.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/images/building.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/images/form-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/images/form-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/extend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/common/extend.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/common/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/common/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/minxi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/common/minxi.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/common/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/common/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/layouts/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/layouts/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/layouts/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/main/scss/layouts/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/vendor/jquery/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/booking/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ui/booking/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/registratioon.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/WebApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/WebApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/controller/BookingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/controller/BookingServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/GenericDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/GenericDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/GenericFindingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/GeneticModifyingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/RoomDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/RoomDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/Connector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/Connector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/GenericDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/GenericDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/GenericFindingDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/GenericFindingDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/OrderDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/OrderDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/RoomDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/RoomDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/entity/Order$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/entity/Order$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/classes/com/hotel/entity/Order.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-300italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-500italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-600.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-600.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-600.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-600.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-800italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/poppins-v5-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/fonts/poppins/roboto-condensed-v16-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/images/building.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/images/form-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/common/extend.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/common/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/common/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/common/minxi.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/common/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/layouts/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/layouts/responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/vendor/jquery/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/booking/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/booking.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/booking.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/login0.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/login1.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hotel-web-1.0-SNAPSHOT/jsp/registratioon.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -242,24 +635,27 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hotel_db@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="hotel_db: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="users: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+        <item name="lab1@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/UserDaoImpl.java">
+      <file leaf-file-name="booking.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state relative-caret-position="570">
+              <caret line="60" column="48" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="60" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -270,8 +666,8 @@
       <file leaf-file-name="BookingServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+            <state relative-caret-position="244">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -279,56 +675,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/utils/Token.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-281">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessfulLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/SuccessfulLogin.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/about.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="134" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -336,32 +714,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenericFindingDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericFindingDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Command.java">
+      <file leaf-file-name="AboutServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/AboutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="128" selection-start-line="10" selection-start-column="128" selection-end-line="10" selection-end-column="128" />
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/RegistrationServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -375,8 +756,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -385,7 +766,23 @@
     <findStrings>
       <find>.</find>
       <find>ha</find>
+      <find>body</find>
+      <find>datapicker</find>
+      <find>icon</find>
+      <find>datepicker</find>
+      <find>date_from</find>
+      <find>person</find>
+      <find>edb77d</find>
+      <find>.sub</find>
+      <find>.submit</find>
+      <find>yell</find>
+      <find>float: left</find>
+      <find>book_bu</find>
+      <find>main_sty</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -393,57 +790,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/roleDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/RoleDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/entity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/GeneticModifyingDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/RoomDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/OrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/OrderDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericFindingDaoImpl.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ea2fc67c-4640-4adc-9070-bab78f5b4007/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ea2fc67c-4640-4adc-9070-bab78f5b4007/console_2.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/WebApp.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ea2fc67c-4640-4adc-9070-bab78f5b4007/console_1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ea2fc67c-4640-4adc-9070-bab78f5b4007/console_3.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ea2fc67c-4640-4adc-9070-bab78f5b4007/console_5.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/RoomDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sql/schema.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericFindingDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/controller/LoginServlet.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_2.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_3.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/entity/Order.java" />
-        <option value="$PROJECT_DIR$/web/jsp/login.jsp.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/booking/booking.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/registratioon.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/GeneticModifyingDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericFindingDaoImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/WebApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/CreateOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/RoomDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/RoomDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/SuccessfulLogin.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hotel/utils/Token.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/service/impl/RoomServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/OrderCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/main/scss/common/variables.scss" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/booking/scss/common/variables.scss" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/main/scss/layouts/main.scss" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/header/styles/about.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/header/about.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/header/styles/about_responsive.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Booking.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_5.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_4.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_6.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Registration.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/main/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/ui/header/styles/main_styles.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/entity/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Registration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/UserRedirecter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/UserRedirector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/AboutServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hotel/controller/UserServlet.java" />
       </list>
     </option>
   </component>
@@ -484,10 +881,11 @@
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/webapp/ui/header/plugins/jquery-datepicker/package.json" />
+    </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="27" />
     <option name="width" value="960" />
     <option name="height" value="1053" />
@@ -498,8 +896,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -550,7 +949,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hotel" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
@@ -559,8 +958,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hotel" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -570,7 +977,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hotel" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hotel" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
@@ -579,11 +1011,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hotel-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hotel-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -591,32 +1046,33 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;DDL Data Source" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/sql" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/UO.csv" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/ui/header" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/ui/main" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/jsp" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/jsp/booking" />
-      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/ui/registration" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/ui/header" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/ui/find" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hotel.dao" />
       <recent name="main.java.entity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/jsp/booking" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/html" />
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -782,45 +1238,46 @@
       <workItem from="1558542374876" duration="189000" />
       <workItem from="1558542915820" duration="16096000" />
       <workItem from="1558623562280" duration="7811000" />
-      <workItem from="1558671895686" duration="27434000" />
+      <workItem from="1558671895686" duration="83423000" />
+      <workItem from="1559122548137" duration="3299000" />
+      <workItem from="1559141957718" duration="12027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74122000" />
+    <option name="totallyTimeSpent" value="145437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="960" height="1053" extended-state="4" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2760262" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.09124867" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17395945" />
+      <window_info anchor="right" id="Database" order="6" weight="0.09978655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4617092" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.5327414" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5294772" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.050055616" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.10122358" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.6607342" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.30589545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32230523" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3063263" />
       <window_info anchor="bottom" id="SQL Generator" order="12" weight="0.5005549" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -828,10 +1285,9 @@
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3063263" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41713014" />
-      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33926585" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.30589545" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
@@ -841,16 +1297,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.5327414" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5294772" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2760262" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18516542" />
-      <window_info anchor="right" id="Database" order="6" weight="0.17395945" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32925472" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.09124867" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32230523" />
+      <window_info anchor="right" id="Database" order="6" weight="0.17235859" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -869,15 +1326,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -894,119 +1343,123 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/GeneticModifyingDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="e#2506#2507#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="das://416e9c77-62c4-40d1-bc5e-9c03d0491774/database/lab1/schema/public/table/uo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret selection-end-line="14" selection-end-column="2" />
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/tomcat/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+    <entry file="das://416e9c77-62c4-40d1-bc5e-9c03d0491774/database/lab1/schema/public/table/fop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/416e9c77-62c4-40d1-bc5e-9c03d0491774/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/header/styles/elements.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="386" column="22" lean-forward="true" selection-start-line="386" selection-start-column="22" selection-end-line="386" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="5" column="126926" selection-start-line="5" selection-start-column="126926" selection-end-line="5" selection-end-column="126926" />
+          <folding>
+            <element signature="e#58844#59044#2" expanded="true" />
+            <element signature="e#59252#59401#2" expanded="true" />
+            <element signature="e#59903#60049#2" expanded="true" />
+            <element signature="e#60350#60516#1" expanded="true" />
+            <element signature="e#72112#72355#2" expanded="true" />
+            <element signature="e#73222#73471#2" expanded="true" />
+            <element signature="e#100341#100531#2" expanded="true" />
+            <element signature="e#100577#100767#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/main/fonts/material-icon/css/material-design-iconic-font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/header/styles/elements_responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="246" column="5" selection-start-line="246" selection-start-column="5" selection-end-line="246" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <caret line="1" column="72" selection-end-line="1" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/tomcat/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-end-line="78" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/hotel_db_public_service_levels.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="11" selection-end-line="2" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/hotel_db_public_hotel_rooms.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="228" selection-start-column="228" selection-end-column="228" />
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-end-line="4" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_5.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="82" selection-end-line="2" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/hotel_db_public_roles.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="55" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/hotel_db_public_users.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" selection-end-line="1" selection-end-column="166" />
+        <state relative-caret-position="19">
+          <caret line="1" column="6" lean-forward="true" selection-end-line="1" selection-end-column="166" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/hotel_db_public_orders.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://11ee7a9b-86a0-4f4a-a619-b7b12bc63733/database/hotel_db/schema/public/table/roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://11ee7a9b-86a0-4f4a-a619-b7b12bc63733/database/hotel_db/schema/public/table/service_levels">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://11ee7a9b-86a0-4f4a-a619-b7b12bc63733/database/hotel_db/schema/public/table/hotel_rooms">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+          <caret column="116" selection-end-column="253" />
         </state>
       </provider>
     </entry>
@@ -1014,49 +1467,18 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/entity/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/hotel_db_public_orders.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="15" lean-forward="true" selection-end-column="253" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login0.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/file.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bootstrap-select-1.12.4/js/bootstrap-select.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/login.jsp.xhtml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://11ee7a9b-86a0-4f4a-a619-b7b12bc63733/database/hotel_db/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1065,167 +1487,227 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/header/styles/main_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="4142">
+          <caret line="365" column="17" selection-start-line="365" selection-start-column="17" selection-end-line="365" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/main/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="543">
+          <caret line="476" column="3" selection-start-line="476" selection-start-column="3" selection-end-line="476" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericFindingDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/header/styles/booking.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="387" column="1" selection-start-line="387" selection-start-column="1" selection-end-line="387" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ui/header/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/11ee7a9b-86a0-4f4a-a619-b7b12bc63733/console_6.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="213" selection-end-column="250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1321">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/WebApp.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/SQLException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="551">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/tomcat/lib/servlet-api.jar!/javax/servlet/RequestDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/booking/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1767">
-          <caret line="93" selection-end-line="93" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/booking/fonts/material-icon/css/material-design-iconic-font.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret column="2338" selection-start-column="2329" selection-end-column="2338" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login0.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#b#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/RoomDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/GenericDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="76">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/registratioon.jsp">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="189">
+          <caret line="292" column="9" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/booking/scss/layouts/responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericFindingDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/GenericDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+    <entry file="uml://DATABASE/11ee7a9b-86a0-4f4a-a619-b7b12bc63733">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>11ee7a9b-86a0-4f4a-a619-b7b12bc63733</OriginalElement>
+          <nodes>
+            <node x="212.5" y="166.0">11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.hotel_rooms</node>
+            <node x="0.0" y="0.0">11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.roles</node>
+            <node x="310.33333333333337" y="0.5">11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.service_levels</node>
+            <node x="17.5" y="130.0">11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.users</node>
+            <node x="208.00000000000003" y="380.0">11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.orders</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.hotel_rooms" target="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.service_levels">
+              <point x="0.0" y="-64.0" />
+              <point x="331.5" y="105.0" />
+              <point x="357.33333333333337" y="105.0" />
+              <point x="-47.0" y="39.5" />
+            </edge>
+            <edge source="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.users" target="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.roles">
+              <point x="0.0" y="-100.0" />
+              <point x="0.0" y="40.0" />
+            </edge>
+            <edge source="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.orders" target="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.service_levels">
+              <point x="82.33333333333329" y="-111.5" />
+              <point x="413.8333333333333" y="355.0" />
+              <point x="461.0" y="355.0" />
+              <point x="461.0" y="105.0" />
+              <point x="451.33333333333337" y="105.0" />
+              <point x="47.0" y="39.5" />
+            </edge>
+            <edge source="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.orders" target="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.users">
+              <point x="-82.33333333333334" y="-111.5" />
+              <point x="249.16666666666669" y="355.0" />
+              <point x="105.0" y="355.0" />
+              <point x="0.0" y="100.0" />
+            </edge>
+            <edge source="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.orders" target="11ee7a9b-86a0-4f4a-a619-b7b12bc63733.TABLE:hotel_db.public.hotel_rooms">
+              <point x="-2.8421709430404007E-14" y="-111.5" />
+              <point x="0.0" y="64.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0667736757624398" x="-8.022569966897379" y="204.97743003310262" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/dao/impl/OrderDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        <state relative-caret-position="1064">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/UserRedirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/AboutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1234,18 +1716,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/BookingServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        <state relative-caret-position="244">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="128" selection-start-line="10" selection-start-column="128" selection-end-line="10" selection-end-column="128" />
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="134" selection-start-line="9" selection-start-column="134" selection-end-line="9" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/command/impl/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/booking.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1254,45 +1774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/SuccessfulLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/utils/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hotel/controller/commands/impl/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        <state relative-caret-position="228">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

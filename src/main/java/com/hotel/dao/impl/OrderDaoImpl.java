@@ -26,13 +26,14 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
             "LEFT JOIN service_levels " +
             "ON orders.service_level_id=service_levels.level_id ";
     private static final String INSERT_INTO_ORDERS =
-            "INSERT INTO public.orders (user_id, check_in_date, check_out_date, service_level_id, room_id, order_time) " +
-                    "VALUES (?, ?, ?,?, ?, ?)";
+            "INSERT INTO public.orders (user_id, check_in_date, check_out_date, service_level_id, " +
+                    "room_id, order_time, number_of_places) " +
+                    "VALUES (?, ?, ?,?, ?, ?,?)";
 
     private UserDao userDao;
     private RoomDao roomDao;
 
-    protected OrderDaoImpl(Connector connector, UserDao userDao, RoomDao roomDao) {
+    public OrderDaoImpl(Connector connector, UserDao userDao, RoomDao roomDao) {
         super(connector);
         this.userDao = userDao;
         this.roomDao = roomDao;
@@ -59,11 +60,16 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
 
     }
 
+
+    protected void update(Order order) {
+
+    }
+
     @Override
     protected Order mapResultSetToEntity(ResultSet resultSet) throws SQLException {
         return Order.builder()
                 .withId(resultSet.getLong("order_id"))
-                .withUser(userDao.findById(resultSet.getLong("user_id")).get())
+                .withUser(userDao.findById(resultSet.getLong("user_id")).get()) //orElse
                 .withCheckIn(resultSet.getTimestamp("check_in_date").toLocalDateTime())
                 .withCheckOut(resultSet.getTimestamp("check_out_date").toLocalDateTime())
                 .withServiceLevel(new ServiceLevel(
@@ -71,8 +77,11 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
                         , resultSet.getString("class_type")))
                 .withRoom(roomDao.findById(resultSet.getLong("room_id")).get())
                 .withOrderTime(resultSet.getTimestamp("order_time").toLocalDateTime())
+                .withNumberOfPlaces(resultSet.getInt("number_of_places"))
                 .build();
     }
+
+    //make utility class which check null and set null make generic and type bring as map
 
     @Override
     protected void mapRecordToTable(Order entity, PreparedStatement preparedStatement) throws SQLException {
@@ -83,6 +92,7 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
             preparedStatement.setLong(4, entity.getServiceLevel().getId());
             preparedStatement.setLong(5, entity.getRoom().getId());
             preparedStatement.setTimestamp(6, Timestamp.valueOf(entity.getOrderTime()));
+            preparedStatement.setInt(7, entity.getNumberOfPlaces());
         }
     }
 }

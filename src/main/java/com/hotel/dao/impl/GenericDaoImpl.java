@@ -6,20 +6,14 @@ import org.postgresql.jdbc2.optional.ConnectionPool;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 
-public abstract class GenericDaoImpl<T extends Entity> extends GenericFindingDaoImpl<T> implements GenericDao<T> {
+public abstract class GenericDaoImpl<T extends Entity> extends GenericFindingDaoImpl implements GenericDao<T> {
 
 
     protected GenericDaoImpl(Connector connector) {
         super(connector);
     }
-
-
 
     protected void create(T entity, String queryTemplate) {
         try (Connection connection = new ConnectionPool().getConnection();) {
@@ -30,7 +24,6 @@ public abstract class GenericDaoImpl<T extends Entity> extends GenericFindingDao
             System.err.println("SQL exception (request or table failed): " + e);
         }
     }
-
 
 
     public void deleteById(Long id, String queryTemplate) {
@@ -46,9 +39,5 @@ public abstract class GenericDaoImpl<T extends Entity> extends GenericFindingDao
 
     }
 
-    protected abstract T mapResultSetToEntity(ResultSet resultSet) throws SQLException;
-
     protected abstract void mapRecordToTable(T entity, PreparedStatement preparedStatement) throws SQLException;
-
-
 }

@@ -11,7 +11,7 @@ public class Order extends Entity {
     private ServiceLevel serviceLevel;
     private Room room;
     private LocalDateTime orderTime;
-    private Integer numberOfplaces;
+    private Integer numberOfPlaces;
 
     public Order(Builder builder) {
         super(builder.id);
@@ -21,7 +21,7 @@ public class Order extends Entity {
         this.serviceLevel = builder.serviceLevel;
         this.room = builder.room;
         this.orderTime = builder.orderTime;
-        this.numberOfplaces=builder.numberOfPlaces;
+        this.numberOfPlaces =builder.numberOfPlaces;
     }
 
     public Order() {
@@ -55,8 +55,8 @@ public class Order extends Entity {
         return orderTime;
     }
 
-    public Integer getNumberOfplaces() {
-        return numberOfplaces;
+    public Integer getNumberOfPlaces() {
+        return numberOfPlaces;
     }
 
     public static class Builder {
@@ -123,7 +123,7 @@ public class Order extends Entity {
             return this;
         }
 
-        public Builder setNumberOfPlaces(Integer numberOfPlaces) {
+        public Builder withNumberOfPlaces(Integer numberOfPlaces) {
             this.numberOfPlaces = numberOfPlaces;
             return this;
         }
@@ -144,13 +144,13 @@ public class Order extends Entity {
                 Objects.equals(checkOut, order.checkOut) &&
                 Objects.equals(serviceLevel, order.serviceLevel) &&
                 Objects.equals(room, order.room) &&
-                Objects.equals(numberOfplaces, order.numberOfplaces) &&
+                Objects.equals(numberOfPlaces, order.numberOfPlaces) &&
                 Objects.equals(orderTime, order.orderTime);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, user, checkIn, checkOut, serviceLevel, room, orderTime,numberOfplaces);
+        return Objects.hash(id, user, checkIn, checkOut, serviceLevel, room, orderTime, numberOfPlaces);
     }
 }
 

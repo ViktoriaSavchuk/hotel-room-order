@@ -4,10 +4,11 @@ import com.hotel.dao.RoomDao;
 import com.hotel.entity.Room;
 import com.hotel.entity.ServiceLevel;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao {
 
@@ -17,11 +18,16 @@ public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao 
                     " ON hotel_rooms.service_level = service_levels.level_id    " +
                     " WHERE room_id=?;";
 
-    private static final String SELECT_ALL_ROOMS = "SELECT  hotel_rooms.*, " +
+    private static final String SELECT_ALL_ROOMS = "SELECT DISTINCT hotel_rooms.*, " +
             " service_levels.class_type FROM hotel_rooms " +
             "  LEFT JOIN service_levels" +
             " ON hotel_rooms.service_level = service_levels.level_id";
 
+    private static final String SELECT_ALL_POSSIBLE_NUMBER_OF_PLACES =
+            "SELECT number_of_places FROM hotel_rooms";
+    private static final String SELECT_ALL_POSSIBLE_LEVELS_OF_SERVICES =
+            "SELECT DISTINCT * FROM service_levels\n" +
+                    " JOIN hotel_rooms ON service_levels.level_id = hotel_rooms.service_level";
 
     public RoomDaoImpl(Connector connector) {
         super(connector);
@@ -35,6 +41,43 @@ public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao 
     @Override
     public List<Room> findAll() {
         return findAll(SELECT_ALL_ROOMS);
+    }
+
+    @Override
+    public Set<Integer> findAllRoomTypeByNumberOfPlaces() {
+        Set<Integer> entities = new HashSet<>();
+        try (Connection connection = connector.getConnection()) {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(SELECT_ALL_POSSIBLE_NUMBER_OF_PLACES);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                entities.add(resultSet.getInt("number_of_places"));
+            }
+        } catch (SQLException e) {
+            //logger
+            e.printStackTrace();
+        }
+        return entities;
+    }
+
+
+
+    @Override
+    public Map<Long,String> findAllTypesOfServiceLevel() {
+        Map<Long,String> serviceLevels = new HashMap<>();
+        try (Connection connection = connector.getConnection()) {
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement(SELECT_ALL_POSSIBLE_LEVELS_OF_SERVICES);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                serviceLevels.put(resultSet.getLong("level_id"),
+                        resultSet.getString("class_type"));
+            }
+        } catch (SQLException e) {
+            //logger
+            e.printStackTrace();
+        }
+        return serviceLevels;
     }
 
     @Override

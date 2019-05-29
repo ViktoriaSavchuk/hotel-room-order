@@ -10,6 +10,7 @@ import java.util.Properties;
 
 public class Connector {
 
+    //pull do it as constant
 
     public Connection getConnection() {
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("application.properties")) {
@@ -19,7 +20,6 @@ public class Connector {
             String connectionURL = prop.getProperty("jdbc.url");
             String username = prop.getProperty("jdbc.username");
             String password = prop.getProperty("jdbc.password");
-            System.out.println(password);
             Class.forName(drivers);
             return DriverManager.getConnection(connectionURL, username, password);
         } catch (SQLException | IOException | ClassNotFoundException e) {

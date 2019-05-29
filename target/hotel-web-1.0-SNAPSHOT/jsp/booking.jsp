@@ -1,89 +1,83 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form by Colorlib</title>
 
-    <link rel="stylesheet" href="http://localhost:8081/booking/fonts/material-icon/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="http://localhost:8081/booking/css/style.css">
+    <link rel="stylesheet"
+          href="http://localhost:8081/ui/main/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="http://localhost:8081/ui/main/css/style.css">
+    <link rel="stylesheet" href="http://localhost:8081/ui/find/fonts/linearicons/style.css">
+    <link rel="stylesheet"
+          href="http://localhost:8081/ui/find/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="http://localhost:8081/ui/find/vendor/date-picker/css/datepicker.min.css">
+
+
 
 </head>
 <body>
-
 <div class="main">
     <div class="container">
         <div class="booking-content">
             <div class="booking-image">
-                <img class="booking-img" src="http://localhost:8081/booking/images/form-img.jpg" />" alt="Booking Image">
+                <img class="booking-img" src="http://localhost:8081/ui/main/images/building.jpeg"/>"
             </div>
             <div class="booking-form">
-                <form id="booking-form">
-                    <h2>Booking place for your dinner!</h2>
-                    <div class="form-group form-input">
-                        <input type="text" name="name" id="name" value="" required/>
-                        <label for="name" class="form-label">Your name</label>
-                    </div>
-                    <div class="form-group form-input">
-                        <input type="number" name="phone" id="phone" value="" required />
-                        <label for="phone" class="form-label">Your phone number</label>
-                    </div>
-                    <div class="form-group">
-                        <div class="select-list">
-                            <select name="time" id="time" required>
-                                <option value="">Time</option>
-                                <option value="6pm">6:00 PM</option>
-                                <option value="7pm">7:00 PM</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="select-list">
-                            <select name="food" id="food" required>
-                                <option value="">Food</option>
-                                <option value="seasonalfish">Seasonal steamed fish</option>
-                                <option value="assortedmushrooms">Assorted mushrooms</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-radio">
-                        <label class="label-radio"> Select Your Dining Space</label>
-                        <div class="radio-item-list">
-                                <span class="radio-item">
-                                    <input type="radio" name="number_people" value="2" id="number_people_2" />
-                                    <label for="number_people_2">2</label>
-                                </span>
-                            <span class="radio-item active">
-                                    <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
-                                    <label for="number_people_4">4</label>
-                                </span>
-                            <span class="radio-item">
-                                    <input type="radio" name="number_people" value="6" id="number_people_6" />
-                                    <label for="number_people_6">6</label>
-                                </span>
-                            <span class="radio-item">
-                                    <input type="radio" name="number_people" value="8" id="number_people_8" />
-                                    <label for="number_people_8">8</label>
-                                </span>
-                            <span class="radio-item">
-                                    <input type="radio" name="number_people" value="10" id="number_people_10" />
-                                    <label for="number_people_10">10</label>
-                                </span>
-                        </div>
-                    </div>
+                <form action="booking" method="post">
+                    <form id="booking-form">
+                        <h2>Find a room</h2>
+                        <form action="">
+                            <div class="form-row">
+                                <div class="form-wrapper">
+                                    <label <%--for=""--%>>Check-in *</label>
+                                    <span class="lnr lnr-calendar-full"></span>
+                                    <input type="text" class="form-control datepicker-here" data-language='en'
+                                           data-date-format="dd M yyyy" name="check_in" id="check_in">
+                                </div>
+                                <div class="form-wrapper">
+                                    <label <%--for=""--%>>Check-out *</label>
+                                    <span class="lnr lnr-calendar-full"></span>
+                                    <input type="text" class="form-control datepicker-here" data-language='en'
+                                           data-date-format="dd M yyyy" name="check_out" id="check_out">
+                                </div>
+                            </div>
+                            <%--  < class="form-group">--%>
+                            <div class="select-list">
+                                <label>Places</label>
+                                <select id="number" name="number">
+                                    <%--<option value="">choose number of places in the room</option>--%>
+                                    <c:forEach items="${number_of_places}" var="number" >
+                                        <option  value="${number}">${number}</option>
+                                    </c:forEach>
+                                </select>
+                                <label>Service Level</label>
+                                <select id="level" name="level">
+                                    <%-- <option value="">choose level of service</option>--%>
+                                    <c:forEach items="${levels_of_service}" var="level">
+                                        <option value="${level}">${level.value}</option>
+                                    </c:forEach>
+                                </select>
+                            </div>
+                            <div class="form-submit">
+                                <input type="submit" value="Book now" class="submit" id="submit" name="submit"/>
+                            </div>
 
-                    <div class="form-submit">
-                        <input type="submit" value="Book now" class="submit" id="submit" name="submit" />
-                    </div>
+                        </form>
+                    </form>
                 </form>
+
             </div>
         </div>
     </div>
-
 </div>
 
-<script src="http://localhost:8081/booking/vendor/jquery/jquery.min.js"></script>
-<script src="http://localhost:8081/booking/js/main.js"></script>
+<script src="http://localhost:8081/ui/find/js/jquery-3.3.1.min.js"></script>
+<script src="http://localhost:8081/ui/find/vendor/date-picker/js/datepicker.js"></script>
+<script src="http://localhost:8081/ui/find/vendor/date-picker/js/datepicker.en.js"></script>
+<script src="http://localhost:8081/ui/find/js/main.js"></script>
 </body>
 </html>
+
