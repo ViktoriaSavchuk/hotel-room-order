@@ -25,6 +25,7 @@ public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao 
 
     private static final String SELECT_ALL_POSSIBLE_NUMBER_OF_PLACES =
             "SELECT number_of_places FROM hotel_rooms";
+    
     private static final String SELECT_ALL_POSSIBLE_LEVELS_OF_SERVICES =
             "SELECT DISTINCT * FROM service_levels\n" +
                     " JOIN hotel_rooms ON service_levels.level_id = hotel_rooms.service_level";

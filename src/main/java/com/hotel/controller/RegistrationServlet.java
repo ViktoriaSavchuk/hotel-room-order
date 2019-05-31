@@ -1,5 +1,9 @@
 package com.hotel.controller;
 
+import com.hotel.controller.command.impl.Login;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,8 +15,12 @@ import java.io.IOException;
 @WebServlet("/registration")
 public class RegistrationServlet extends HttpServlet {
 
+    private static final Logger LOGGER = LogManager.getLogger(RegistrationServlet.class);
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        LOGGER.info("GET to RegistrationServlet");
+
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("jsp/registration.jsp");
         request.setAttribute("errorMessage", "     ");
         requestDispatcher.forward(request, response);
@@ -20,6 +28,7 @@ public class RegistrationServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        LOGGER.info("POST to RegistrationServlet");
+        new Login().executeCommand(request, response);
     }
-
 }

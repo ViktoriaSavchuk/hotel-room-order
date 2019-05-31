@@ -81,15 +81,12 @@
                                name="submit"/>
                     </div>
                 </form>
-                <form action="login" method="get">
-                    <input type="submit" value="         Login         " class="submit" id="login"
-                           name="login"/>
-                </form>
+
             </div>
         </div>
     </div>
 </div>
-<%--<script src="http://localhost:8081/ui/registration/js/jquery-3.3.1.min.js"></script>
-<script src="http://localhost:8081/ui/registration/js/main.js"></script>--%>
+<script src="http://localhost:8081/ui/registration/js/jquery-3.3.1.min.js"></script>
+<script src="http://localhost:8081/ui/registration/js/main.js"></script>
 </body>
 </html>

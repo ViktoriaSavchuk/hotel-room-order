@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="http://localhost:8081/ui/find/vendor/date-picker/css/datepicker.min.css">
 
 
-
 </head>
 <body>
 <div class="main">
@@ -49,8 +48,8 @@
                                 <label>Places</label>
                                 <select id="number" name="number">
                                     <%--<option value="">choose number of places in the room</option>--%>
-                                    <c:forEach items="${number_of_places}" var="number" >
-                                        <option  value="${number}">${number}</option>
+                                    <c:forEach items="${number_of_places}" var="number">
+                                        <option value="${number}">${number}</option>
                                     </c:forEach>
                                 </select>
                                 <label>Service Level</label>
@@ -68,7 +67,6 @@
                         </form>
                     </form>
                 </form>
-
             </div>
         </div>
     </div>

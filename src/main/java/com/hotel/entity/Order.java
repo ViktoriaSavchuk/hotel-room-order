@@ -12,8 +12,9 @@ public class Order extends Entity {
     private Room room;
     private LocalDateTime orderTime;
     private Integer numberOfPlaces;
+    private Long price;
 
-    public Order(Builder builder) {
+    private Order(Builder builder) {
         super(builder.id);
         this.user = builder.user;
         this.checkIn = builder.checkIn;
@@ -21,7 +22,8 @@ public class Order extends Entity {
         this.serviceLevel = builder.serviceLevel;
         this.room = builder.room;
         this.orderTime = builder.orderTime;
-        this.numberOfPlaces =builder.numberOfPlaces;
+        this.numberOfPlaces = builder.numberOfPlaces;
+        this.price = builder.price;
     }
 
     public Order() {
@@ -59,6 +61,23 @@ public class Order extends Entity {
         return numberOfPlaces;
     }
 
+    public Long getPrice() {
+        return price;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "User" + user +
+                        "Check-in: " + checkIn +
+                        "\ncheck-out: " + checkOut +
+                        "\nService level: " + serviceLevel.getClassLevel() +
+                        "\nRoom number: " + (room != null ? room.id : "room for this order is not defined") +
+                        "\nOrder time: " + orderTime +
+                        "\nNumber of places=" + numberOfPlaces +
+                        "\nPrice=" + price;
+    }
+
     public static class Builder {
         private Long id;
         private User user;
@@ -68,12 +87,13 @@ public class Order extends Entity {
         private Room room;
         private LocalDateTime orderTime;
         private Integer numberOfPlaces;
+        private Long price;
 
         public Builder() {
         }
 
         public Builder(Long id, User user, LocalDateTime checkIn, LocalDateTime checkOut,
-                       ServiceLevel serviceLevel, Room room, LocalDateTime orderTime, Integer numberOfPlaces) {
+                       ServiceLevel serviceLevel, Room room, LocalDateTime orderTime, Integer numberOfPlaces, Long price) {
             this.id = id;
             this.user = user;
             this.checkIn = checkIn;
@@ -81,7 +101,8 @@ public class Order extends Entity {
             this.serviceLevel = serviceLevel;
             this.room = room;
             this.orderTime = orderTime;
-            this.numberOfPlaces=numberOfPlaces;
+            this.numberOfPlaces = numberOfPlaces;
+            this.price = price;
         }
 
         public Order build() {
@@ -127,6 +148,11 @@ public class Order extends Entity {
             this.numberOfPlaces = numberOfPlaces;
             return this;
         }
+
+        public Builder withPrice(Long price) {
+            this.price = price;
+            return this;
+        }
     }
 
     @Override
@@ -145,12 +171,13 @@ public class Order extends Entity {
                 Objects.equals(serviceLevel, order.serviceLevel) &&
                 Objects.equals(room, order.room) &&
                 Objects.equals(numberOfPlaces, order.numberOfPlaces) &&
+                Objects.equals(price, order.price) &&
                 Objects.equals(orderTime, order.orderTime);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, user, checkIn, checkOut, serviceLevel, room, orderTime, numberOfPlaces);
+        return Objects.hash(id, user, checkIn, checkOut, serviceLevel, room, orderTime, numberOfPlaces, price);
     }
 }
 

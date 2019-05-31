@@ -1,10 +1,8 @@
 package com.hotel.controller;
 
-import com.hotel.controller.command.impl.Booking;
-import com.hotel.dao.impl.Connector;
-import com.hotel.dao.impl.RoomDaoImpl;
-import com.hotel.service.RoomService;
-import com.hotel.service.impl.RoomServiceImpl;
+import com.hotel.controller.command.impl.Book;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,28 +14,28 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Set;
 
+
 @WebServlet("/booking")
 public class BookingServlet extends HttpServlet {
 
-    Connector connector=new Connector();
-    private RoomService roomService = new RoomServiceImpl(new RoomDaoImpl(connector));
-
-
+    private static final Logger LOGGER = LogManager.getLogger(BookingServlet.class);
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        LOGGER.info("GET to BookingServlet");
+
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("jsp/booking.jsp");
-        Set<Integer> allRoomTypeByNumberOfPlaces = roomService.findAllRoomTypeByNumberOfPlaces();
-        Map<Long, String> allTypesOfServiceLevel = roomService.findAllTypesOfServiceLevel();
-
-
+        Set<Integer> allRoomTypeByNumberOfPlaces = Context.getRoomService().findAllRoomTypeByNumberOfPlaces();
+        Map<Long, String> allTypesOfServiceLevel = Context.getRoomService().findAllTypesOfServiceLevel();
         request.setAttribute("number_of_places", allRoomTypeByNumberOfPlaces);
-        request.setAttribute("levels_of_service",allTypesOfServiceLevel);
+        request.setAttribute("levels_of_service", allTypesOfServiceLevel);
         requestDispatcher.forward(request, response);
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        new Booking().executeCommand(request, response);
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        LOGGER.info("POST from BookingServlet");
+        new Book().executeCommand(request, response);
     }
 }

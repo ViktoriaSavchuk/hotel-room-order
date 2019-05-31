@@ -10,7 +10,6 @@
     <link href="http://localhost:8081/ui/header/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
-
     <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/about.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/about_responsive.css">
 </head>

@@ -12,7 +12,8 @@ public class Admin implements Command {
     @Override
     public void executeCommand(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        RequestDispatcher rd = request.getRequestDispatcher("/jsp/admin.jsp");
-        rd.forward(request, response);
+
+        //special rooms
+        //all free rooms on this dates
     }
 }

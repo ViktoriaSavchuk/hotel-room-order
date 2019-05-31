@@ -16,10 +16,12 @@ public class Connector {
         try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("application.properties")) {
             Properties prop = new Properties();
             prop.load(inputStream);
+
             String drivers = prop.getProperty("jdbc.driver");
             String connectionURL = prop.getProperty("jdbc.url");
             String username = prop.getProperty("jdbc.username");
             String password = prop.getProperty("jdbc.password");
+
             Class.forName(drivers);
             return DriverManager.getConnection(connectionURL, username, password);
         } catch (SQLException | IOException | ClassNotFoundException e) {

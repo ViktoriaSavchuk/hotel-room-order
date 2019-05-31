@@ -3,7 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+ <servlet>
+  <servlet-name>ErrorHandler</servlet-name>
+  <servlet-class>com.hotel.controller.ErrorHandler</servlet-class>
+ </servlet>
 
+ <servlet-mapping>
+  <servlet-name>ErrorHandler</servlet-name>
+  <url-pattern>/error</url-pattern>
+ </servlet-mapping>
+
+ <error-page>
+  <error-code>404</error-code>
+  <location>/error</location>
+ </error-page>
+
+ <error-page>
+  <exception-type>java.lang.Throwable</exception-type >
+  <location>/error</location>
+ </error-page>
  <!--   <servlet>
         <display-name>LoginServlet</display-name>
         <servlet-name>LoginServlet</servlet-name>
