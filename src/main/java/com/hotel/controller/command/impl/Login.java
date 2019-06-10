@@ -3,8 +3,9 @@ package com.hotel.controller.command.impl;
 import com.hotel.controller.Context;
 import com.hotel.controller.command.Command;
 import com.hotel.entity.User;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.hotel.utils.Coder;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -26,19 +27,21 @@ public class Login implements Command {
         User loginUser;
         if (Context.getUserService().findByEmail(login).isPresent()) {
             loginUser = Context.getUserService().findByEmail(login).get();
-            if (loginUser.getPassword().equals(password)) {
+            if (loginUser.getPassword().equals(Coder.encode(password))) {
                 request.getSession().setAttribute("id", loginUser.getId());
                 request.getSession().setAttribute("role", loginUser.getRole());
                 new Redirect().executeCommand(request, response);
+            }else {
+                redirect(request, response, "Invalid login or password");
             }
         } else {
-            LOGGER.warn("user with wrong credentials tried to login: " + login + ',' + password);
             redirect(request, response, "Invalid login or password");
         }
     }
 
     private void redirect(HttpServletRequest request, HttpServletResponse response, String message)
             throws ServletException, IOException {
+        LOGGER.warn("user with wrong credentials tried to login");
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("jsp/login.jsp");
         request.setAttribute("errorMessage", message);
         requestDispatcher.forward(request, response);

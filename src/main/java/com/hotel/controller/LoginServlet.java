@@ -1,8 +1,8 @@
 package com.hotel.controller;
 
 import com.hotel.controller.command.impl.Login;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +15,7 @@ import java.io.IOException;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 
-    private static final Logger LOGGER = LogManager.getLogger(LoginServlet.class);
+    private static final Logger LOGGER = Logger.getLogger(LoginServlet.class);
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

@@ -1,8 +1,11 @@
-package com.hotel.configuration.db;
+package com.hotel.configuration.db.impl;
+
+import com.hotel.configuration.db.DbConnectionPool;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class DbConnectionPoolImpl implements DbConnectionPool {
@@ -23,13 +26,13 @@ public class DbConnectionPoolImpl implements DbConnectionPool {
 
     public static DbConnectionPoolImpl create(String url, String user, String password) {
 
-        List<Connection> pool = new ArrayList<>(INITIAL_POOL_SIZE);
+        List<Connection> synchronizedPool = Collections.synchronizedList(new ArrayList<>(INITIAL_POOL_SIZE));
 
         for (int i = 0; i < INITIAL_POOL_SIZE; i++) {
-            pool.add(createConnection(url, user, password));
+            synchronizedPool.add(createConnection(url, user, password));
         }
 
-        return new DbConnectionPoolImpl(url, user, password, pool);
+        return new DbConnectionPoolImpl(url, user, password, synchronizedPool);
     }
 
     @Override

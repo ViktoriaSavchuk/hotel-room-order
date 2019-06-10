@@ -5,6 +5,7 @@ import com.hotel.entity.Order;
 import com.hotel.service.OrderService;
 import com.hotel.service.RoomService;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -48,7 +49,12 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public List<Order> ordersBetweenDates(LocalDateTime checkInDate, LocalDateTime checkOutDate) {
+    public List<Order> ordersBetweenDates(LocalDate checkInDate, LocalDate checkOutDate) {
         return orderDao.ordersBetweenDates(checkInDate,checkOutDate);
+    }
+
+    @Override
+    public void update(Order order) {
+        orderDao.update(order);
     }
 }

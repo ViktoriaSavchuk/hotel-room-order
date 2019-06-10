@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-        <link rel="stylesheet" type="text/css"
-              href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
 
 
     <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/main_styles.css">
@@ -21,16 +21,22 @@
 <header class="header">
     <div class="header_content d-flex flex-row align-items-center justify-content-start">
         <div class="logo"><a href="#">Forest Hotel</a></div>
-        <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
-
-            <div class="book_button"><a href="http://localhost:8081/ui/header/about.html">About</a></div>
-            <div class="header_phone d-flex flex-row align-items-center justify-content-center">
-                <img src="http://localhost:8081/ui/header/images/phone.png" alt="">
-                <span>0183-12345678</span>
-            </div>
-
-            <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <%-- <div class="pull-left">--%>
+        <div class="ml-auto d-flex flex-row align-items-lg-end justify-content-start on-left">
+            <%-- <div class="book_button" >--%>
+            <form action="about" method="get">
+                <input type="submit" value="    About    " class="submit" id="about"
+                       name="registration"/>
+            </form>
+            <%--    // <a href="http://localhost:8081/ui/header/about.html">About</a>--%>
         </div>
+        <div class="submit d-flex flex-row align-items-center justify-content-center on-left">
+            <img src="http://localhost:8081/ui/header/images/phone.png" alt="">
+            <span>0123-12345678</span>
+        </div>
+    </div>
+
+    <%--</--%><%--div>--%>
     </div>
 </header>
 <div class="main">
@@ -40,40 +46,46 @@
                 <img class="booking-img" src="http://localhost:8081/ui/main/images/building.jpeg"/>
             </div>
             <div class="booking-form">
-                <h5><%=request.getAttribute("errorMessage") %>
-                <form action="registration" method="post">
+                <form action="registration" method="post" id="contactForm">
                     <h5><%=request.getAttribute("errorMessage") %>
                     </h5>
                     <h3>New Account?</h3>
                     <div class="form-group">
                         <span class="lnr lnr-user"></span>
                         <label>First Name</label>
-                        <input type="text" class="form-control" placeholder="Username" name="name" id="name">
+                        <input required minlength="2" type="text" class="form-control" placeholder="Username"
+                               name="name"
+                               id="name">
                     </div>
                     <div class="form-holder">
                         <span class="lnr lnr-user"></span>
                         <label>Second Name</label>
-                        <input type="text" class="form-control" placeholder="Username" name="surname" id="surname">
+                        <input required minlength="2" type="text" class="form-control"
+                               placeholder="Username" name="surname" id="surname">
                     </div>
                     <div class="form-holder">
                         <span class="lnr lnr-phone-handset"></span>
-                        <label>Phone Number</label>
-                        <input type="text" class="form-control" placeholder="Phone Number" name="phone" id="phone">
+                        <label for="phone">Phone Number</label>
+                        <input required minlength="5" maxlength="11" type="text" class="form-control"
+                               placeholder="Phone Number" name="phone" id="phone">
                     </div>
-                    <div class="form-holder">
+                    <div class="form-group"<%--"form-holder"--%>>
                         <span class="lnr lnr-envelope"></span>
-                        <label>E-mail</label>
-                        <input type="text" class="form-control" placeholder="Mail" name="email" id="email">
+                        <label for="email" class="control-label">E-mail</label>
+                        <input type="email" class="form-control" placeholder="Mail" name="email" id="email">
                     </div>
                     <div class="form-holder">
                         <span class="lnr lnr-lock"></span>
                         <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Password" name="pass1" id="pass1">
+                        <input required minlength="7" maxlength="255"  type="password"
+                               class="form-control" placeholder="Password" name="pass1" id="pass1">
                     </div>
                     <div class="form-holder">
                         <span class="lnr lnr-lock"></span>
                         <label>Confirm Password</label>
-                        <input type="password" class="form-control" placeholder="Confirm Password" name="pass2" id="pass2">
+                        <input required minlength="7" maxlength="255" type="password"
+                               class="form-control" placeholder="Confirm Password" name="pass2"
+                               id="pass2">
                     </div>
 
                     <div class="form-submit">
@@ -88,5 +100,6 @@
 </div>
 <script src="http://localhost:8081/ui/registration/js/jquery-3.3.1.min.js"></script>
 <script src="http://localhost:8081/ui/registration/js/main.js"></script>
+<%--<script src="http://localhost:8081/ui/main/js/validation.js"></script>--%>
 </body>
 </html>

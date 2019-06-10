@@ -6,12 +6,15 @@
 
     <meta name="description" content="The River template project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
-    <link href="http://localhost:8081/ui/header/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="http://localhost:8081/ui/header/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
 
 
     <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/about.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/about_responsive.css">
+    <link rel="stylesheet" href="http://localhost:8081/ui/main/css/style.css">
 </head>
 <body>
 
@@ -22,9 +25,14 @@
         <div class="header_content d-flex flex-row align-items-center justify-content-start">
             <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
 
-                <div class="book_button"><form action="login" method="get">
-                    <input type="submit" value="         Login" class="submit" id="login"
-                           name="login"/></form></div>
+                <div class="ml-auto d-flex flex-row align-items-lg-end justify-content-start on-left">
+                    <%-- <div class="book_button" >--%>
+                    <form action="about" method="post">
+                        <input type="submit" value="home" class="submit" id="home"
+                               name="command"/>
+                    </form>
+                </div>
+
                 <div class="header_phone d-flex flex-row align-items-center justify-content-center">
                     <img src="http://localhost:8081/ui/header/images/phone.png" alt="">
                     <span>0123-12345678</span>
@@ -70,9 +78,9 @@
     </div>
 
 
-
     <div class="testimonials">
-        <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="http://localhost:8081/ui/header/images/testimonials.jpg"
+        <div class="parallax_background parallax-window" data-parallax="scroll"
+             data-image-src="http://localhost:8081/ui/header/images/testimonials.jpg"
              data-speed="0.8"></div>
         <div class="testimonials_overlay"></div>
         <div class="container">
@@ -92,7 +100,8 @@
                                     <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet
                                         tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
                                 </div>
-                                <div class="testimonial_image"><img src=http://localhost:8081/ui/header/"images/user_1.jpg" alt=""></div>
+                                <div class="testimonial_image"><img
+                                        src="http://localhost:8081/ui/header/images/user_1.jpg" alt=""></div>
                                 <div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
                             </div>
 
@@ -105,7 +114,8 @@
                                     <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet
                                         tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
                                 </div>
-                                <div class="testimonial_image"><img src="http://localhost:8081/ui/header/images/user_2.jpg" alt=""></div>
+                                <div class="testimonial_image"><img
+                                        src="http://localhost:8081/ui/header/images/user_2.jpg" alt=""></div>
                                 <div class="testimonial_author"><a href="#">Michael Doe</a>, Italy</div>
                             </div>
 
@@ -117,7 +127,8 @@
                                     <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet
                                         tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
                                 </div>
-                                <div class="testimonial_image"><img src="http://localhost:8081/ui/header/images/user_3.jpg" alt=""></div>
+                                <div class="testimonial_image"><img
+                                        src="http://localhost:8081/ui/header/images/user_3.jpg" alt=""></div>
                                 <div class="testimonial_author"><a href="#">Luis Garcia</a>, Spain</div>
                             </div>
 
@@ -135,10 +146,9 @@
                 <div class="row">
                     <div class="col">
                         <div class="footer_logo_container text-center">
-                            <div class="footer_logo">
+                            <div class="footer_logo text-black-50">
                                 <a href="#"></a>
                                 <div>Forest Hotel</div>
-
                                 <div></div>
                             </div>
                         </div>
@@ -150,26 +160,24 @@
                     <div class="col-lg-3">
                         <div class="footer_title">Our Address</div>
                         <div class="footer_list">
-                            <ul>
-                                <li>67559</li>
-                                <li>Canada</li>
-                            </ul>
+                            <ul></ul>
+                            <p>67559</p>
+                            <p>Canada</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3">
                         <div class="footer_title">Reservations</div>
                         <div class="footer_list">
-                            <ul>
-                                <li>Tel: 345 5667 889</li>
-                                <li>Fax; 6783 4567 889</li>
-                                <li>reservations@foresthotel.com</li>
-                            </ul>
+                            <ul></ul>
+                            <p>Tel: 345 5667 889  </p>
+                            <p>Fax; 6783 4567 889</p>
+                            <p>reservations@foresthotel.com</p>
                         </div>
                     </div>
 
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="certificates d-flex flex-row align-items-start justify-content-lg-between justify-content-start flex-lg-nowrap flex-wrap">
                             <div class="cert"><img src="images/cert_1.png" alt=""></div>
                             <div class="cert"><img src="images/cert_2.png" alt=""></div>

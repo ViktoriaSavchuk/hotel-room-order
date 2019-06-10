@@ -6,12 +6,11 @@ import com.hotel.dao.UserDao;
 import com.hotel.entity.Order;
 import com.hotel.entity.Room;
 import com.hotel.entity.ServiceLevel;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.sql.*;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,13 +20,13 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
 
 
     private static final String SELECT_FROM_ORDERS_WHERE_ID = "SELECT orders.*,service_levels.class_type " +
-            "FROM orders" +
+            "FROM orders " +
             "LEFT JOIN service_levels " +
             "ON orders.service_level_id=service_levels.level_id " +
             "WHERE order_id=?;";
 
     private static final String SELECT_ALL_ORDERS = "SELECT orders.*,service_levels.class_type " +
-            "FROM orders" +
+            "FROM orders " +
             "LEFT JOIN service_levels " +
             "ON orders.service_level_id=service_levels.level_id ;";
     private static final String INSERT_INTO_ORDERS =
@@ -45,12 +44,16 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
             "FROM orders " +
             "LEFT JOIN service_levels " +
             "ON orders.service_level_id=service_levels.level_id " +
-            "WHERE room_id=null " +
+            "WHERE room_id ISNULL " +
             "LIMIT 1";
 
-    private static final String SELECT_ORDERS_BETWEEN_SPECIAL_DATE ="SELECT * " +
-            "FROM orders WHERE check_in_date >='?' " +
-            "AND check_out_date >='?'";
+    private static final String SELECT_ORDERS_BETWEEN_SPECIAL_DATE =
+            "SELECT  *, service_levels.class_type " +
+                    "FROM orders LEFT JOIN service_levels " +
+                    "ON orders.service_level_id = service_levels.level_id " +
+                    "WHERE check_in_date >=?" +
+                    " AND check_out_date >=?" +
+                    " AND room_id NOTNULL; ";
 
     private static final String UPDATE_ORDER = "UPDATE public.orders SET room_id=?, price=?," +
             " number_of_places=?, service_level_id=? WHERE order_id=?;";
@@ -86,8 +89,9 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
         deleteById(id, DELETE_FROM_ORDERS_WHERE_ID);
     }
 
-    protected void update(Order order) {
-
+    @Override
+    public void update(Order order) {
+        update(order, UPDATE_ORDER);
     }
 
     @Override
@@ -103,8 +107,8 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
     }
 
     @Override
-    public List<Order> ordersBetweenDates(LocalDateTime checkInDate, LocalDateTime checkOutDate){
-        return ordersBetweenDates(SELECT_ORDERS_BETWEEN_SPECIAL_DATE, checkInDate,checkOutDate);
+    public List<Order> ordersBetweenDates(LocalDate checkInDate, LocalDate checkOutDate) {
+        return ordersBetweenDates(SELECT_ORDERS_BETWEEN_SPECIAL_DATE, checkInDate, checkOutDate);
     }
 
     @Override
@@ -126,7 +130,7 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
 
 
     @Override
-    protected void mapRecordToTable(Order entity, PreparedStatement preparedStatement) throws SQLException {
+    protected void mapRecordToTable(Order entity, PreparedStatement preparedStatement) {
         try {
             if (entity != null) {
                 preparedStatement.setLong(1, entity.getUser().getId());
@@ -144,15 +148,15 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
     }
 
     @Override
-    protected void updateRecordInTable(Order entity, PreparedStatement preparedStatement) throws SQLException {
+    protected void updateRecordInTable(Order order, PreparedStatement preparedStatement) {
         try {
-            if (entity != null) {
-                preparedStatement.setLong(1, entity.getRoom().getId());
-                preparedStatement.setLong(2, entity.getPrice());
-                preparedStatement.setLong(3, entity.getNumberOfPlaces());
-                preparedStatement.setLong(4, entity.getServiceLevel().getId());
-                preparedStatement.setLong(5, entity.getId());
-
+            if (order != null) {
+                preparedStatement.setLong(1, order.getRoom().getId());
+                preparedStatement.setLong(2, order.getPrice());
+                preparedStatement.setLong(3, order.getNumberOfPlaces());
+                preparedStatement.setLong(4, order.getServiceLevel().getId());
+                preparedStatement.setLong(5, order.getId());
+                System.out.println(preparedStatement);
             }
         } catch (Exception e) {
             LOGGER.error(e.getMessage());
@@ -169,5 +173,4 @@ public class OrderDaoImpl extends GenericDaoImpl<Order> implements OrderDao {
             throw new RuntimeException(e);
         }
     }
-
 }

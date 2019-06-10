@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <link rel="stylesheet" type="text/css"
-            href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/main_styles.css">
     <link rel="stylesheet"
           href="http://localhost:8081/ui/main/fonts/material-icon/css/material-design-iconic-font.min.css">
@@ -14,16 +14,17 @@
 <header class="header">
     <div class="header_content d-flex flex-row align-items-center justify-content-start">
         <div class="logo"><a href="#">Forest Hotel</a></div>
-       <%-- <div class="pull-left">--%>
-        <div class="ml-auto d-flex flex-row align-items-center justify-content-start">
-            <div class="book_button" ><a href="http://localhost:8081/ui/header/about.html">About</a></div>
-            <div class="header_phone d-flex flex-row align-items-center justify-content-center on-left">
-                <img src="http://localhost:8081/ui/header/images/phone.png" alt="">
-                <span>0123-12345678</span>
-            </div>
+        <div class="ml-auto d-flex flex-row align-items-lg-end justify-content-start on-left">
+            <form action="about" method="get">
+                <input type="submit" value="    about    " class="submit" id="about"
+                       name="registration"/>
+            </form>
         </div>
-
-        <%--</--%><%--div>--%>
+        <div class="submit d-flex flex-row align-items-center justify-content-center on-left">
+            <img src="http://localhost:8081/ui/header/images/phone.png" alt="">
+            <span>0123-12345678</span>
+        </div>
+    </div>
     </div>
 </header>
 <div class="main">
@@ -48,14 +49,13 @@
                             type="password" class="form-control" name="password" id="password"
                             placeholder="Password" required="required">
                     </div>
-                    <%--<button type="submit" style="width: 100%; font-size:1.1em;"
-                            class="btn btn-large btn btn-success btn-lg btn-block"><b>Login</b></button>--%>
+
                     <div class="form-submit">
-                        <input type="submit" value="         Login         " class="submit" id="submit" name="submit"/>
+                        <input type="submit" value="login" class="submit" id="submit" name="login"/>
                     </div>
                 </form>
                 <form action="registration" method="get">
-                    <input type="submit" value="Registration" class="submit" id="registration"
+                    <input type="submit" value="registration" class="submit" id="registration"
                            name="registration"/>
                 </form>
             </div>

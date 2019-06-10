@@ -47,17 +47,21 @@ public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao 
     @Override
     public Set<Integer> findAllRoomTypeByNumberOfPlaces() {
         Set<Integer> entities = new HashSet<>();
-        try (Connection connection = connector.getConnection()) {
+        Connection connection = null;
+
+        try {
+            connection = connector.getConnection();
             PreparedStatement preparedStatement =
                     connection.prepareStatement(SELECT_ALL_POSSIBLE_NUMBER_OF_PLACES);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 entities.add(resultSet.getInt("number_of_places"));
             }
-        } catch (SQLException e) {
-            //logger
+        } catch (Exception e) {
             e.printStackTrace();
         }
+        connector.releaseConnection(connection);
+
         return entities;
     }
 
@@ -66,7 +70,9 @@ public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao 
     @Override
     public Map<Long,String> findAllTypesOfServiceLevel() {
         Map<Long,String> serviceLevels = new HashMap<>();
-        try (Connection connection = connector.getConnection()) {
+        Connection connection = null;
+        try {
+            connection = connector.getConnection();
             PreparedStatement preparedStatement =
                     connection.prepareStatement(SELECT_ALL_POSSIBLE_LEVELS_OF_SERVICES);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -74,10 +80,10 @@ public class RoomDaoImpl extends GenericFindingDaoImpl<Room> implements RoomDao 
                 serviceLevels.put(resultSet.getLong("level_id"),
                         resultSet.getString("class_type"));
             }
-        } catch (SQLException e) {
-            //logger
+        } catch (Exception e) {
             e.printStackTrace();
         }
+        connector.releaseConnection(connection);
         return serviceLevels;
     }
 

@@ -1,7 +1,9 @@
 package com.hotel.controller;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import com.hotel.controller.command.impl.Redirect;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,5 +24,14 @@ public class AboutServlet extends HttpServlet {
 
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("jsp/about.jsp");
         requestDispatcher.forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if(request.getSession().getAttribute("role")!=null){
+            new Redirect().executeCommand(request,response);
+        }else {
+            response.sendRedirect("/login");
+        }
     }
 }

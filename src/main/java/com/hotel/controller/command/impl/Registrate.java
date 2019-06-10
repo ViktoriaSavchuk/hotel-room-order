@@ -6,8 +6,8 @@ import com.hotel.entity.Role;
 import com.hotel.entity.User;
 import com.hotel.utils.Coder;
 import com.hotel.utils.Validator;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -43,6 +43,7 @@ public class Registrate implements Command {
                     .build());
 
             LOGGER.info(email + "was registered");
+            new Login().executeCommand(request, response);
         } else {
             LOGGER.warn(email + "wasn't registered cause of wrong fields");
             redirect(request, response, "Fill all fields correctly");

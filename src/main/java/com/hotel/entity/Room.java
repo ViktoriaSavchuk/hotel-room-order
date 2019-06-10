@@ -31,6 +31,16 @@ public class Room extends Entity {
         return price;
     }
 
+    @Override
+    public String toString() {
+        return "Room{" +
+                "numberOfPlaces=" + numberOfPlaces +
+                ", serviceLevel=" + serviceLevel +
+                ", price=" + price +
+                ", id=" + id +
+                '}';
+    }
+
 
     public static class Builder {
         private Long id;

@@ -10,14 +10,5 @@
       <user-name>postgres</user-name>
       <introspection-schemas>hotel_db:public</introspection-schemas>
     </data-source>
-    <data-source name="lab1@localhost" uuid="416e9c77-62c4-40d1-bc5e-9c03d0491774">
-      <database-info product="PostgreSQL" version="10.8 (Debian 10.8-1.pgdg90+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>postgres</user-name>
-      <introspection-schemas>lab1:public</introspection-schemas>
-    </data-source>
   </component>
 </project>

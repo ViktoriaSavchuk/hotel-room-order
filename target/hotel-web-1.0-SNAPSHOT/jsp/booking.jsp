@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:8081/ui/header/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8081/ui/header/styles/main_styles.css">
     <link rel="stylesheet"
           href="http://localhost:8081/ui/main/fonts/material-icon/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="http://localhost:8081/ui/main/css/style.css">
@@ -18,6 +21,32 @@
 
 </head>
 <body>
+<header class="header">
+    <div class="header_content d-flex flex-row align-items-center justify-content-start">
+        <div class="logo"><a href="#">Forest Hotel</a></div>
+        <div class="ml-auto d-flex flex-row align-items-lg-end justify-content-start on-left">
+            <form action="booking" method="post">
+                <input type="submit" value="logout" class="submit" id="logout"
+                       name="command"/>
+            </form>
+            <form action="about" method="post">
+                <input type="submit" value="home" class="submit" id="home"
+                       name="command"/>
+            </form>
+            <form action="about" method="get">
+                <input type="submit" value="about" class="submit" id="about"
+                       name="command"/>
+            </form>
+        </div>
+        <div class="submit d-flex flex-row align-items-center justify-content-center on-left">
+            <img src="http://localhost:8081/ui/header/images/phone.png" alt="">
+            <span>0123-12345678</span>
+        </div>
+    </div>
+
+    <%--</--%><%--div>--%>
+    </div>
+</header>
 <div class="main">
     <div class="container">
         <div class="booking-content">
@@ -31,37 +60,34 @@
                         <form action="">
                             <div class="form-row">
                                 <div class="form-wrapper">
-                                    <label <%--for=""--%>>Check-in *</label>
-                                    <span class="lnr lnr-calendar-full"></span>
-                                    <input type="text" class="form-control datepicker-here" data-language='en'
-                                           data-date-format="dd M yyyy" name="check_in" id="check_in">
+                                    <label>Check-in *</label>
+                                    <input type="date" class="form-control" data-language='en'
+                                           name="check_in" id="check_in"
+                                           min="${check_in_min_start_date}" max="${check_in_max_start_date}">
                                 </div>
                                 <div class="form-wrapper">
-                                    <label <%--for=""--%>>Check-out *</label>
-                                    <span class="lnr lnr-calendar-full"></span>
-                                    <input type="text" class="form-control datepicker-here" data-language='en'
-                                           data-date-format="dd M yyyy" name="check_out" id="check_out">
+                                    <label>Check-out *</label>
+                                    <input type="date" class="form-control" data-language='en'
+                                           name="check_out" id="check_out"
+                                           min="${check_out_min_start_date}" max="${check_out_max_start_date}">
                                 </div>
                             </div>
-                            <%--  < class="form-group">--%>
                             <div class="select-list">
                                 <label>Places</label>
                                 <select id="number" name="number">
-                                    <%--<option value="">choose number of places in the room</option>--%>
                                     <c:forEach items="${number_of_places}" var="number">
                                         <option value="${number}">${number}</option>
                                     </c:forEach>
                                 </select>
                                 <label>Service Level</label>
                                 <select id="level" name="level">
-                                    <%-- <option value="">choose level of service</option>--%>
                                     <c:forEach items="${levels_of_service}" var="level">
                                         <option value="${level}">${level.value}</option>
                                     </c:forEach>
                                 </select>
                             </div>
                             <div class="form-submit">
-                                <input type="submit" value="Book now" class="submit" id="submit" name="submit"/>
+                                <input type="submit" value="book" class="submit" id="book" name="command"/>
                             </div>
 
                         </form>
@@ -72,10 +98,10 @@
     </div>
 </div>
 
-<script src="http://localhost:8081/ui/find/js/jquery-3.3.1.min.js"></script>
+<%--<script src="http://localhost:8081/ui/find/js/jquery-3.3.1.min.js"></script>
 <script src="http://localhost:8081/ui/find/vendor/date-picker/js/datepicker.js"></script>
 <script src="http://localhost:8081/ui/find/vendor/date-picker/js/datepicker.en.js"></script>
-<script src="http://localhost:8081/ui/find/js/main.js"></script>
+<script src="http://localhost:8081/ui/find/js/main.js"></script>--%>
 </body>
 </html>
 

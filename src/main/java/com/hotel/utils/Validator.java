@@ -8,8 +8,8 @@ import java.util.regex.Pattern;
 public class Validator {
 
     private static final String EMAIL_REGEX = "\\w{4,}@(\\w+\\.)([a-z]{2,4})";
-    private static final String PHONE_REGEX_TRUE = "/^(\\+\\d{1,3}[- ]?)?\\d{10}$/";
-    private static final String PHONE_REGEX_FALSE = "/0{5,}/";
+    private static final String PHONE_REGEX_TRUE = "^(\\+\\d{1,3}[- ]?)?\\d{10}$";
+    private static final String PHONE_REGEX_FALSE = "0{5,}";
 
 
     public static boolean datesAreValid(LocalDate checkInDate, LocalDate checkOutDate) {

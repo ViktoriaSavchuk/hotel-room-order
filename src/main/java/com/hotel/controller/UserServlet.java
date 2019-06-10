@@ -1,8 +1,8 @@
 package com.hotel.controller;
 
+import com.hotel.controller.command.CommandFactory;
 import com.hotel.entity.Order;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,9 +16,8 @@ import java.util.List;
 @WebServlet("/user")
 public class UserServlet extends HttpServlet {
 
-    private static final Logger LOGGER = LogManager.getLogger(UserServlet.class);
+    private static final Logger LOGGER = Logger.getLogger(UserServlet.class);
 
-    //pagination
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         LOGGER.info("GET to UserServlet");
@@ -35,17 +34,17 @@ public class UserServlet extends HttpServlet {
             page=Integer.parseInt(request.getParameter("page"));
 
         }
-        int pages=userOrders.size()/2;
-        System.out.println(pages);
-        int s1=pages*(page-1);
-        int s2=(page*pages);
-        System.out.println(s1+" "+s2);
+        int pages=userOrders.size();
+        int s1=page-1;
+        int s2=page;
+
+       // int s1=pages*(page-1);
+        //int s2=(page*pages);
         List<Order> ordersForPage=userOrders.subList(s1,s2);
-        System.out.println(ordersForPage);
 
         if (userOrders.size() > 0) {
             request.setAttribute("orders", ordersForPage);
-            request.setAttribute("pages",userOrders.size()/2 );
+            request.setAttribute("pages", pages);
             request.setAttribute("page",page );
 
         } else {
@@ -56,6 +55,7 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-       // new Order().executeCommand(request, response);
+        CommandFactory commandFactory=new CommandFactory();
+        commandFactory.executeCommand(request,response);
     }
 }

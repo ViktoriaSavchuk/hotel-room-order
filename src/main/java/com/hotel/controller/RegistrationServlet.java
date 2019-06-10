@@ -1,8 +1,8 @@
 package com.hotel.controller;
 
-import com.hotel.controller.command.impl.Login;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import com.hotel.controller.command.impl.Registrate;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -29,6 +29,6 @@ public class RegistrationServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         LOGGER.info("POST to RegistrationServlet");
-        new Login().executeCommand(request, response);
+        new Registrate().executeCommand(request, response);
     }
 }

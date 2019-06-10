@@ -16,27 +16,28 @@ import com.hotel.service.impl.UserServiceImpl;
 
 public class Context {
 
-    private static Connector connector=new Connector();
+    private static Connector connector = new Connector();
 
-    public static AdminService getAdminService(){
+    public static AdminService getAdminService() {
         return new AdminServiceImpl(getRoomService(), getOrderService());
     }
 
-    public static UserService getUserService(){
+    public static UserService getUserService() {
         return new UserServiceImpl(getUserDao());
     }
 
-    public static RoomService getRoomService(){
+    public static RoomService getRoomService() {
         return new RoomServiceImpl(getRoomDao());
     }
 
-    public static OrderService getOrderService(){
-        return new OrderServiceImpl(new OrderDaoImpl(connector,getUserDao(),getRoomDao()));
+    public static OrderService getOrderService() {
+        return new OrderServiceImpl(new OrderDaoImpl(connector, getUserDao(), getRoomDao()));
     }
 
-    private static UserDao getUserDao(){
+    private static UserDao getUserDao() {
         return new UserDaoImpl(connector);
     }
+
     private static RoomDaoImpl getRoomDao() {
         return new RoomDaoImpl(connector);
     }

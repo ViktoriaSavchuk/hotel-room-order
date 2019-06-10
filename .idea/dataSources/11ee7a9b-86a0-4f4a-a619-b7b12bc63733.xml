@@ -10,36 +10,39 @@
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
-    <database id="3" parent="1" name="postgres">
+    <database id="3" parent="1" name="lab1">
+      <ObjectId>32768</ObjectId>
+    </database>
+    <database id="4" parent="1" name="postgres">
       <ObjectId>12994</ObjectId>
       <Comment>default administrative connection database</Comment>
     </database>
-    <role id="4" parent="1" name="pg_monitor">
+    <role id="5" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="5" parent="1" name="pg_read_all_settings">
+    <role id="6" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="6" parent="1" name="pg_read_all_stats">
+    <role id="7" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="7" parent="1" name="pg_signal_backend">
+    <role id="8" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="8" parent="1" name="pg_stat_scan_tables">
+    <role id="9" parent="1" name="pg_stat_scan_tables">
       <ObjectId>3377</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="9" parent="1" name="postgres">
+    <role id="10" parent="1" name="postgres">
       <ObjectId>10</ObjectId>
       <SuperRole>1</SuperRole>
       <Inherit>1</Inherit>
@@ -49,13 +52,6 @@
       <Replication>1</Replication>
       <ConnectionLimit>-1</ConnectionLimit>
       <BypassRls>1</BypassRls>
-    </role>
-    <role id="10" parent="1" name="viktoria">
-      <ObjectId>16511</ObjectId>
-      <SuperRole>1</SuperRole>
-      <Inherit>1</Inherit>
-      <CanLogin>1</CanLogin>
-      <ConnectionLimit>-1</ConnectionLimit>
     </role>
     <schema id="11" parent="2" name="information_schema">
       <ObjectId>12703</ObjectId>
@@ -77,8 +73,8 @@
     <schema id="16" parent="2" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2019-05-31.05:33:54.420</IntrospectionTimestamp>
-      <IntrospectionStateNumber>601</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2019-06-10.21:04:49.221</IntrospectionTimestamp>
+      <IntrospectionStateNumber>638</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -124,9 +120,9 @@
       <HandlerId>335</HandlerId>
       <Type>index</Type>
     </access-method>
-    <sequence id="23" parent="16" name="orders_order_id_seq">
-      <ObjectId>16489</ObjectId>
-      <StateNumber>580</StateNumber>
+    <sequence id="23" parent="16" name="users_user_id_seq">
+      <ObjectId>24581</ObjectId>
+      <StateNumber>628</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
       <CacheSize>1</CacheSize>
@@ -140,7 +136,15 @@
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
-    <sequence id="25" parent="16" name="roles_role_id_seq">
+    <sequence id="25" parent="16" name="orders_order_id_seq">
+      <ObjectId>16489</ObjectId>
+      <StateNumber>580</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="26" parent="16" name="roles_role_id_seq">
       <ObjectId>16385</ObjectId>
       <StateNumber>557</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
@@ -148,7 +152,7 @@
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
-    <sequence id="26" parent="16" name="service_levels_level_id_seq">
+    <sequence id="27" parent="16" name="service_levels_level_id_seq">
       <ObjectId>16413</ObjectId>
       <StateNumber>563</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
@@ -156,33 +160,25 @@
       <CacheSize>1</CacheSize>
       <DataType>bigint</DataType>
     </sequence>
-    <sequence id="27" parent="16" name="users_user_id_seq">
-      <ObjectId>16473</ObjectId>
-      <StateNumber>578</StateNumber>
-      <SequenceIdentity>1</SequenceIdentity>
-      <BelongsToColumn>1</BelongsToColumn>
-      <CacheSize>1</CacheSize>
-      <DataType>bigint</DataType>
-    </sequence>
     <table id="28" parent="16" name="hotel_rooms">
       <ObjectId>16461</ObjectId>
-      <StateNumber>581</StateNumber>
+      <StateNumber>638</StateNumber>
     </table>
     <table id="29" parent="16" name="orders">
       <ObjectId>16491</ObjectId>
-      <StateNumber>601</StateNumber>
+      <StateNumber>636</StateNumber>
     </table>
     <table id="30" parent="16" name="roles">
       <ObjectId>16387</ObjectId>
-      <StateNumber>579</StateNumber>
+      <StateNumber>622</StateNumber>
     </table>
     <table id="31" parent="16" name="service_levels">
       <ObjectId>16415</ObjectId>
-      <StateNumber>580</StateNumber>
+      <StateNumber>638</StateNumber>
     </table>
     <table id="32" parent="16" name="users">
       <ObjectId>16475</ObjectId>
-      <StateNumber>592</StateNumber>
+      <StateNumber>632</StateNumber>
     </table>
     <column id="33" parent="28" name="room_id">
       <Position>1</Position>
@@ -231,12 +227,14 @@
       <Primary>1</Primary>
     </key>
     <foreign-key id="40" parent="28" name="hotel_rooms_service_levels_level_id_fk">
-      <ObjectId>16468</ObjectId>
+      <ObjectId>24599</ObjectId>
       <ColNames>service_level</ColNames>
       <RefTableId>16415</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>service_levels</RefTableName>
       <RefColNames>level_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
     <column id="41" parent="29" name="order_id">
       <Position>1</Position>
@@ -302,30 +300,35 @@
       <TypeId>20</TypeId>
     </column>
     <foreign-key id="50" parent="29" name="orders_users_user_id_fk">
-      <ObjectId>16495</ObjectId>
+      <ObjectId>24584</ObjectId>
       <ColNames>user_id</ColNames>
       <RefTableId>16475</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>users</RefTableName>
       <RefKeyName>entities_pkey</RefKeyName>
       <RefColNames>user_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
     </foreign-key>
     <foreign-key id="51" parent="29" name="orders_service_levels_level_id_fk">
-      <ObjectId>16500</ObjectId>
+      <ObjectId>24589</ObjectId>
       <ColNames>service_level_id</ColNames>
       <RefTableId>16415</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>service_levels</RefTableName>
       <RefColNames>level_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
     <foreign-key id="52" parent="29" name="orders_hotel_rooms_room_id_fk">
-      <ObjectId>16505</ObjectId>
+      <ObjectId>24594</ObjectId>
       <ColNames>room_id</ColNames>
       <RefTableId>16461</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>hotel_rooms</RefTableName>
       <RefKeyName>hotel_rooms_pkey</RefKeyName>
       <RefColNames>room_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
     <column id="53" parent="30" name="role_id">
       <Position>1</Position>
@@ -394,7 +397,7 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>578</StateNumber>
+      <StateNumber>627</StateNumber>
       <DefaultExpression>nextval(&apos;users_user_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
       <SequenceName>users_user_id_seq</SequenceName>
@@ -458,13 +461,15 @@
       <Primary>1</Primary>
     </key>
     <foreign-key id="73" parent="32" name="users_roles_role_id_fk">
-      <ObjectId>16484</ObjectId>
+      <ObjectId>24576</ObjectId>
       <ColNames>role_id</ColNames>
       <RefTableId>16387</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>roles</RefTableName>
       <RefKeyName>roles_pkey</RefKeyName>
       <RefColNames>role_id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
     </foreign-key>
   </database-model>
 </dataSource>

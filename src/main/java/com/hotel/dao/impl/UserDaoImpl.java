@@ -3,6 +3,8 @@ package com.hotel.dao.impl;
 import com.hotel.dao.UserDao;
 import com.hotel.entity.Role;
 import com.hotel.entity.User;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,6 +14,8 @@ import java.util.List;
 import java.util.Optional;
 
 public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
+
+    private static final Logger LOGGER = LogManager.getLogger(UserDaoImpl.class);
 
     private static final String SELECT_FROM_USERS_WHERE_ID = "SELECT users.*,roles.role_name " +
             "FROM users " +
@@ -27,7 +31,7 @@ public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
 
     private static final String INSERT_INTO_USER = "INSERT INTO public.users " +
             "(role_id, email, password, name, surname,phone) " +
-            "VALUES (?,?,?,?,?);";
+            "VALUES (?,?,?,?,?,?);";
 
     private static final String SELECT_ALL_USERS = "SELECT users.*,roles.role_name " +
             "FROM users " +
@@ -39,7 +43,6 @@ public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
     public UserDaoImpl(Connector connector) {
         super(connector);
     }
-
 
     @Override
     public void create(User entity) {
@@ -64,7 +67,9 @@ public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
     @Override
     public Optional<User> findByEmail(String email) {
         User user = null;
-        try (Connection connection = connector.getConnection()) {
+        Connection connection = null;
+        try {
+            connection = connector.getConnection();
             PreparedStatement preparedStatement =
                     connection.prepareStatement(SELECT_FROM_USERS_WHERE_EMAIL);
             preparedStatement.setString(1, email);
@@ -72,9 +77,10 @@ public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
             if (resultSet.next()) {
                 user = mapResultSetToEntity(resultSet);
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            LOGGER.error("Could not find user by email ", e);
         }
+        connector.releaseConnection(connection);
         return Optional.ofNullable(user);
     }
 
@@ -104,5 +110,9 @@ public class UserDaoImpl extends GenericDaoImpl<User> implements UserDao {
         }
     }
 
+    @Override
+    protected void updateRecordInTable(User entity, PreparedStatement preparedStatement) throws SQLException {
+        throw new UnsupportedOperationException();
+    }
 
 }

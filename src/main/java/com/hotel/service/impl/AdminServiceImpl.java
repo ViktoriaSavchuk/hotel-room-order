@@ -23,20 +23,21 @@ public class AdminServiceImpl implements AdminService {
     public List<Room> getAllSuitableRooms(Order order) {
 
         return roomService.findAll().stream()
-                .filter(room -> room.getServiceLevel().equals(order.getServiceLevel())
-                        && room.getNumberOfPlaces().equals(order.getNumberOfPlaces())
-                        && orderService.ordersBetweenDates(order.getCheckIn(), order.getCheckOut()).stream()
-                        .noneMatch(order1 -> order1.getRoom().getId()
-                                .equals(room.getId()))).collect(Collectors.toList());
-
+                .filter(room -> room.getServiceLevel().equals(order.getServiceLevel()))
+                .filter(room -> room.getNumberOfPlaces().equals(order.getNumberOfPlaces()))
+                .filter(room -> orderService.ordersBetweenDates(order.getCheckIn().toLocalDate(),
+                        order.getCheckOut().toLocalDate()).stream()
+                        .noneMatch(order1 -> order1.getRoom().getId().equals(room.getId())))
+                .collect(Collectors.toList());
     }
 
     @Override
     public List<Room> getAllAvailableRoomOnDates(Order order) {
 
         return roomService.findAll().stream()
-                .filter(room -> orderService.ordersBetweenDates(order.getCheckIn(), order.getCheckOut()).stream()
-                        .noneMatch(order1 -> order1.getRoom().getId().equals(room.getId()))).collect(Collectors.toList());
+                .filter(room -> orderService.ordersBetweenDates(order.getCheckIn().toLocalDate(),
+                        order.getCheckOut().toLocalDate()).stream()
+                        .noneMatch(order1 -> order1.getRoom().getId().equals(room.getId())))
+                .collect(Collectors.toList());
     }
-
 }
