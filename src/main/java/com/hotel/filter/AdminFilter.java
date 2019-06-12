@@ -24,7 +24,7 @@ public class AdminFilter implements Filter {
         if (request.getSession() != null
                 && request.getSession().getAttribute("role") != null) {
             Role role = (Role) request.getSession().getAttribute("role");
-            if (role.getId() == 1) {
+            if (role.getId() == 1 && request.getRequestURI().contains("/admin")) {
                 filterChain.doFilter(request, response);
                 return;
             }

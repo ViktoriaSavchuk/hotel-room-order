@@ -16,6 +16,6 @@ public class Logout implements Command {
         if (session != null) {
             session.invalidate();
         }
-        response.sendRedirect("/login");
+        //response.sendRedirect("/login");
     }
 }

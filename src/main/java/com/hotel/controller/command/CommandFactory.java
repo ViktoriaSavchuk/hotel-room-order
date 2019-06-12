@@ -18,6 +18,7 @@ public class CommandFactory implements Command {
         String command = request.getParameter("command");
 
         System.out.println(command);
+        System.out.println(command);
 
         switch (command) {
             case "logout": {

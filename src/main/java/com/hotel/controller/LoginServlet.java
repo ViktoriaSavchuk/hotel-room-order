@@ -1,6 +1,7 @@
 package com.hotel.controller;
 
 import com.hotel.controller.command.impl.Login;
+import com.hotel.controller.command.impl.Logout;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -20,6 +21,8 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+
+        new Logout().executeCommand(request,response);
 
         LOGGER.info("GET to LoginServlet");
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("jsp/login.jsp");

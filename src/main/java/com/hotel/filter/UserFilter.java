@@ -24,7 +24,7 @@ public class UserFilter implements Filter {
         if (request.getSession() != null
                 && request.getSession().getAttribute("role") != null) {
             Role role = (Role) request.getSession().getAttribute("role");
-            if (role.getId() == 2) {
+            if (role.getId() == 2 && (request.getRequestURI().contains("/user") || request.getRequestURI().contains("/booking"))) {
                 filterChain.doFilter(request, response);
                 return;
             }

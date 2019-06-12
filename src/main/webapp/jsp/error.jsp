@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,19 +12,7 @@
             padding: 0;
             background: #242424;
             font-family: 'Oswald', sans-serif;
-          /*  background: -moz-element(#canvas);
-            overflow: hidden;*/
         }
-
-    /*    html::after {
-            content: '';
-            background: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-        }*/
 
         .center {
             height: 400px;
@@ -66,8 +53,6 @@
             -webkit-animation: scanline 8s linear infinite;
             animation: scanline 8s linear infinite;
             opacity: 0.33;
-           /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0));
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0));*/
         }
 
         body::before {
@@ -131,7 +116,6 @@
             }
         }
     </style>
-
 
 </head>
 <body>
